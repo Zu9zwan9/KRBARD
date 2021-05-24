@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>currency.project.controller.DeleteCurrencyRateController</OriginalElement>
+  <nodes>
+    <node x="1240.0" y="809.0">currency.project.controller.DeleteCurrencyRateController</node>
+    <node x="2178.648148148148" y="261.0">currency.project.db.InMemoryDb</node>
+    <node x="0.0" y="798.0">currency.project.controller.AddCurrencyController</node>
+    <node x="829.9999999999999" y="809.0">currency.project.controller.GetAllCurrencyController</node>
+    <node x="1673.188271604938" y="0.0">currency.project.model.Currency</node>
+    <node x="2060.0" y="798.0">currency.project.controller.CurrencyController</node>
+    <node x="1299.0" y="513.5">currency.project.dao.CurrencyDaoImpl</node>
+    <node x="711.7623456790122" y="480.0">currency.project.service.CurrencyServiceImpl</node>
+    <node x="1649.9999999999998" y="809.0">currency.project.controller.DeleteCurrencyController</node>
+    <node x="414.9999999999999" y="809.0">currency.project.controller.AddCurrencyRateController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="currency.project.controller.AddCurrencyController" target="currency.project.model.Currency" relationship="CREATE">
+      <point x="-131.66666666666652" y="-61.5" />
+      <point x="65.83333333333348" y="757.0" />
+      <point x="392.429012345679" y="757.0" />
+      <point x="392.429012345679" y="241.0" />
+      <point x="1415.75" y="241.0" />
+      <point x="1415.75" y="231.0" />
+      <point x="1740.688271604938" y="231.0" />
+      <point x="-67.5" y="105.5" />
+    </edge>
+    <edge source="currency.project.controller.GetAllCurrencyController" target="currency.project.service.CurrencyServiceImpl" relationship="CREATE">
+      <point x="-97.5" y="-50.5" />
+      <point x="927.4999999999999" y="777.0" />
+      <point x="945.2623456790122" y="777.0" />
+      <point x="0.0" y="128.0" />
+    </edge>
+    <edge source="currency.project.controller.CurrencyController" target="currency.project.service.CurrencyServiceImpl" relationship="CREATE">
+      <point x="-131.66666666666663" y="-61.5" />
+      <point x="2125.833333333333" y="777.0" />
+      <point x="945.2623456790122" y="777.0" />
+      <point x="0.0" y="128.0" />
+    </edge>
+    <edge source="currency.project.service.CurrencyServiceImpl" target="currency.project.model.Currency" relationship="DEPENDENCY">
+      <point x="0.0" y="-128.0" />
+      <point x="945.2623456790122" y="241.0" />
+      <point x="1415.75" y="241.0" />
+      <point x="1415.75" y="231.0" />
+      <point x="1740.688271604938" y="231.0" />
+      <point x="-67.5" y="105.5" />
+    </edge>
+    <edge source="currency.project.controller.DeleteCurrencyRateController" target="currency.project.dao.CurrencyDaoImpl" relationship="CREATE">
+      <point x="97.50000000000011" y="-50.5" />
+      <point x="0.0" y="94.5" />
+    </edge>
+    <edge source="currency.project.controller.AddCurrencyController" target="currency.project.service.CurrencyServiceImpl" relationship="CREATE">
+      <point x="0.0" y="-61.5" />
+      <point x="197.5" y="777.0" />
+      <point x="945.2623456790122" y="777.0" />
+      <point x="0.0" y="128.0" />
+    </edge>
+    <edge source="currency.project.controller.DeleteCurrencyController" target="currency.project.dao.CurrencyDaoImpl" relationship="CREATE">
+      <point x="97.5" y="-50.5" />
+      <point x="1942.4999999999998" y="767.0" />
+      <point x="1532.5" y="767.0" />
+      <point x="0.0" y="94.5" />
+    </edge>
+    <edge source="currency.project.dao.CurrencyDaoImpl" target="currency.project.db.InMemoryDb" relationship="DEPENDENCY">
+      <point x="116.75" y="-94.5" />
+      <point x="1649.25" y="454.0" />
+      <point x="2314.648148148148" y="454.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="currency.project.controller.DeleteCurrencyController" target="currency.project.service.CurrencyServiceImpl" relationship="CREATE">
+      <point x="-97.5" y="-50.5" />
+      <point x="1747.4999999999998" y="777.0" />
+      <point x="945.2623456790122" y="777.0" />
+      <point x="0.0" y="128.0" />
+    </edge>
+    <edge source="currency.project.controller.GetAllCurrencyController" target="currency.project.dao.CurrencyDaoImpl" relationship="CREATE">
+      <point x="97.5" y="-50.5" />
+      <point x="1122.5" y="767.0" />
+      <point x="1532.5" y="767.0" />
+      <point x="0.0" y="94.5" />
+    </edge>
+    <edge source="currency.project.controller.CurrencyController" target="currency.project.dao.CurrencyDaoImpl" relationship="CREATE">
+      <point x="2.8421709430404007E-14" y="-61.5" />
+      <point x="2257.5" y="767.0" />
+      <point x="1532.5" y="767.0" />
+      <point x="0.0" y="94.5" />
+    </edge>
+    <edge source="currency.project.controller.CurrencyController" target="currency.project.model.Currency" relationship="DEPENDENCY">
+      <point x="131.66666666666663" y="-61.5" />
+      <point x="2389.1666666666665" y="757.0" />
+      <point x="2168.148148148148" y="757.0" />
+      <point x="2168.148148148148" y="241.0" />
+      <point x="1415.75" y="241.0" />
+      <point x="1415.75" y="231.0" />
+      <point x="1740.688271604938" y="231.0" />
+      <point x="-67.5" y="105.5" />
+    </edge>
+    <edge source="currency.project.controller.AddCurrencyController" target="currency.project.dao.CurrencyDaoImpl" relationship="CREATE">
+      <point x="131.66666666666652" y="-61.5" />
+      <point x="329.1666666666665" y="767.0" />
+      <point x="1532.5" y="767.0" />
+      <point x="0.0" y="94.5" />
+    </edge>
+    <edge source="currency.project.controller.DeleteCurrencyRateController" target="currency.project.service.CurrencyServiceImpl" relationship="CREATE">
+      <point x="-97.49999999999989" y="-50.5" />
+      <point x="1337.5" y="777.0" />
+      <point x="945.2623456790122" y="777.0" />
+      <point x="0.0" y="128.0" />
+    </edge>
+    <edge source="currency.project.db.InMemoryDb" target="currency.project.model.Currency" relationship="CREATE">
+      <point x="-68.0" y="-83.5" />
+      <point x="2246.648148148148" y="241.0" />
+      <point x="1415.75" y="241.0" />
+      <point x="1415.75" y="231.0" />
+      <point x="1740.688271604938" y="231.0" />
+      <point x="-67.5" y="105.5" />
+    </edge>
+    <edge source="currency.project.controller.AddCurrencyRateController" target="currency.project.dao.CurrencyDaoImpl" relationship="CREATE">
+      <point x="98.75" y="-50.5" />
+      <point x="711.2499999999999" y="767.0" />
+      <point x="1532.5" y="767.0" />
+      <point x="0.0" y="94.5" />
+    </edge>
+    <edge source="currency.project.db.InMemoryDb" target="currency.project.model.Currency" relationship="TO_MANY">
+      <point x="68.0" y="-83.5" />
+      <point x="2382.648148148148" y="231.0" />
+      <point x="1875.688271604938" y="231.0" />
+      <point x="67.5" y="105.5" />
+    </edge>
+    <edge source="currency.project.controller.AddCurrencyRateController" target="currency.project.service.CurrencyServiceImpl" relationship="CREATE">
+      <point x="-98.75" y="-50.5" />
+      <point x="513.7499999999999" y="777.0" />
+      <point x="945.2623456790122" y="777.0" />
+      <point x="0.0" y="128.0" />
+    </edge>
+    <edge source="currency.project.dao.CurrencyDaoImpl" target="currency.project.model.Currency" relationship="DEPENDENCY">
+      <point x="-116.75" y="-94.5" />
+      <point x="1415.75" y="231.0" />
+      <point x="1740.688271604938" y="231.0" />
+      <point x="-67.5" y="105.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.3541056918509569" showDependencies="true" x="1540.3173677174368" y="871.3946377875933" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>currency.project.controller.LogFilter</OriginalElement>
+  <nodes>
+    <node x="69.5" y="0.0">currency.project.service.AdminServiceImpl</node>
+    <node x="0.0" y="151.0">currency.project.controller.LogFilter</node>
+    <node x="0.0" y="341.0">currency.project.service.CurrencyServiceImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="currency.project.controller.LogFilter" target="currency.project.service.AdminServiceImpl" relationship="CREATE">
+      <point x="0.0" y="-72.5" />
+      <point x="0.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7501532400953838" showDependencies="true" x="41.167186910286546" y="140.5496832425706" />
+  <SelectedNodes>
+    <node>currency.project.controller.LogFilter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
